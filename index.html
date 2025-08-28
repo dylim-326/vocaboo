@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vocaboo : 홈</title>
+</head>
+<body class="font">
+    <header>
+        <div class="head">
+            <a href="./index.html"><img src="./images/main_logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="./search.html">단어 검색</a></li>
+                <li><a href="./game.html">암기 게임</a></li>
+                <li><a href="./myvocab.html">나의 단어장</a></li>
+                <li><a href="./shared.html">단어장 둘러보기</a></li>
+                <li><a href="./test.html">시험보기</a></li>
+                <li><a href="./notice.html">공지사항</a></li>
+            </ul>
+            <div class="head-right">
+                <a href="./login.html" id="login"><img src="./images/login.png" alt="로그인 아이콘"> 로그인</a>
+                <a id="manager" href="./manage_login.html">관리자모드</a>
+                <a href=""><img id="res-menu" src="./images/res_menu.png" alt="res-menu"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrap">
+        <section>
+            <div class="today">
+                <h2 style="text-align: center; margin-top: 10px;">오늘의 단어 <button>🔊</button></h2>
+                <img src="./images/today_voca.png" alt="today_voca" style="width: 70%; display: block; margin: auto;">
+            </div>
+        </section>
+        
+        <main>
+            <div id="search">
+                <input style="width:80%; height: 50px;" type="text" placeholder="  검색할 단어 입력 (한/영)">
+                <button>검색</button>
+            </div>
+
+            <!-- <div class="container">
+                <div class="card">
+                    <img src="./images/study_boo.png">
+                    단어 학습
+                </div>
+                <div class="card">
+                    <img src="./images/game_boo.png">
+                    암기 게임
+                </div>
+                <div class="card">
+                    <img src="./images/test_boo.png">
+                    시험 보기
+                </div>
+            </div> -->
+
+            <div class="container">
+                <a href="./search.html"><div class="card">
+                    <div class="front">
+                        <img src="./images/study_boo.png" alt="vocab_boo">
+                        나의 단어장
+                    </div>
+                    <div class="back">
+                        <br><br>
+                        <p>나만의 단어장<br>만들러 Go!<br>👉</p>
+                    </div>
+                </div></a>
+
+                <a href="./game.html"><div class="card">
+                    <div class="front">
+                        <img src="./images/game_boo.png" alt="game_boo">
+                        암기 게임
+                    </div>
+                    <div class="back">
+                        <br><br>
+                        <p>단어 게임으로<br>암기력 강화<br>👉</p>
+                    </div>
+                </div></a>
+
+                <a href="./test.html"><div class="card">
+                    <div class="front">
+                        <img src="./images/test_boo.png" alt="test_boo">
+                        시험 보기
+                    </div>
+                    <div class="back">
+                        <br><br>
+                        <p>맞춤형<br>시험 제공<br>👉</p>
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="popular">
+                <h2 style="margin-bottom: 40px; color: rgb(53, 53, 122);">지금 인기 있는 단어장 Top3 !</h2>
+                <div class="wrap01">
+                    <a href="./shared_01.html"><div class="vocab">
+                        <img src="./images/vocab1.png" alt="단어장">
+                        <div class="vocab-text">
+                            <p>@cloud02님</p>
+                            <p>"토익 990 완성 단어"</p>
+                        </div>
+                    </div></a>
+
+
+                    <a href="#"><div class="vocab">
+                        <img src="./images/vocab2.png" alt="단어장">
+                        <div class="vocab-text">
+                            <p>@xeeeow님</p>
+                            <p>"원서 속 핵심 영단어 정리"</p>
+                        </div>
+                    </div></a>
+
+
+                    <a href="#"><div class="vocab">
+                        <img src="./images/vocab3.png" alt="단어장">
+                        <div class="vocab-text">
+                            <p>@qklel00님</p>
+                            <p>"하루 한 페이지만으로 토익 만점 받은 비법"</p>
+                        </div>
+                    </div></a>
+                </div>
+                <br><a id="lookaround" href="./shared.html">단어장 둘러보기 →</a>
+            </div>
+        </main>
+        
+        
+        
+        <div class="empty">
+            <!-- <div class="video-box">
+                <h2 style="margin-top: 20px;">학습 보조 영상 추천</h2><br>
+                <p style="margin-bottom: 13px;">📌 YouTube _ 와이쌤</p>
+                <iframe src="https://www.youtube.com/embed/4wE6tXiPpF0?si=noocs8jscAIhuD40" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p style="margin-bottom: 13px;">📌 YouTube _ 본즈영어</p>
+                <iframe src="https://www.youtube.com/embed/9D5GTBKzEDM?si=QEijKDQN5zWe-AGR" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p style="margin-bottom: 13px;">📌 YouTube _ 해커스토익</p>
+                <iframe src="https://www.youtube.com/embed/mEZlClPvYRI?si=PXbKZtRLFVWbUwP7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> -->
+        </div>
+    </div>
+
+    <footer>
+        <img src="./images/main_logo.png" width="120" alt="logo">
+        <div id="copy">© 2025 Vocaboo.</div> <p> 개인 포트폴리오 목적으로 제작된 웹사이트입니다.</p>
+        <p>본 사이트에 사용된 모든 이미지는 pixabay, ChatGPT 및 Freepik Pikaso AI Image Generator
+        를 통해 생성되었으며, 상업적 사용 목적이 없음을 알려드립니다.</p>
+    </footer>
+</body>
+</html>
