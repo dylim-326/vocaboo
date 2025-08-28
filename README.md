@@ -21,7 +21,9 @@
 |__ manage_login.html       관리자 로그인 페이지
 |__ manage_main.html        관리자 메인 페이지
 |__ manage_member.html      관리자 사용자 관리 페이지
+...
 
 ## 기술 스택
 - html5 : 시맨틱 마크업
+
 - css3 : position, flex, 애니메이트
